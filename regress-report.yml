@@ -1,12 +1,39 @@
 ---
-test-cases:
-  - summary: |
-       Переключения на русский язык пользования
-    status: fail
+- summary: |
+    Поиск товара по ключевому слову в "Search"
+  status: fail
 
-  - summary: |
-       Переключения на русский язык пользования
-    status: fail
+- summary: |
+    Проверка карточки товара
+  status: pass
+  
+- summary: |
+    Проверка товара по категориям
+  status: pass
+ 
+- summary: |
+    Фильтрация товара по производителю
+  status: pass
+
+- summary: |
+   Фильтрация товары по цене ( класс эквивалентности )
+  status: pass
+
+- summary: | 
+    Отфильтровать товары по цене ( граничные значения )
+ status: pass
+
+- summary: |
+    Переключения на русский язык пользования
+  status: fail
+
+- summary: |
+
+
+
+
+
+
 
 bugreports:
   - summary: |
