@@ -64,20 +64,6 @@
     Ошибка изображена на скриншоте: 
     BugReport-Screenshots/Language.png
     
-- summary: |
-    Нет возможности изменить количество товара в корзине
-  environment: |
-    Google Chrome 116.0.5845.179 (Official Build) (arm64) 
-    OS Linux
-  steps-to-reproduce: |
-    1. Зайти в корзину товара: https://hexlet-products-store.vercel.app/cart
-    2. Изменить количество товара
-  expected-result: |  
-    Возможность изменить количества товара в корзине
-  actual-result: |
-    Нет функции изменения количества товара в корзине
-    Ошибка изображена на скриншоте:
-    BugReport-Screenshots/Variation-InQuantity.png
 
 - summary: |
     Не просматривается карточка товара 
