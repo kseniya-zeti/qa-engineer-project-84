@@ -35,19 +35,17 @@
 - summary: |
     Проверка на наличия мобильной версии
   environment: |
-    Google Chrome 116.0.5845.179 (Official Build) (arm64) 
-    OS Linux
+    Iphone SE,версия IOS16.7,Safari
   steps-to-reproduce: |
-    1. Зайти на главную сраницу https://hexlet-products-store.vercel.app
-    2. Кликнуть на "Languge"
-    3. Выбрать "Russian"
+    1. Проверить как отбражается сайт на экране телефона
+    2. Проскроллить сайт от начала и до конца
+    3. Перейти на страницу корзины
   expected-result: |
-    Интерфейс переключился на русский язык
-    Весь текст и меню переводится на русский язык
+    
   actual-result: |
-    При переключении на русский язык часть интерфейса не переводится
+    
     Ошибка изображена на скриншоте: 
-   BugReport-Screenshots/Language.png
+   BugReport-Screenshots/
 
 
 - summary: |
