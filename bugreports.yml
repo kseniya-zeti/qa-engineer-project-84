@@ -2,6 +2,18 @@
 
 - summary: | 
     Переход на главную страницу c помощью "Hexlet Store"
+  environment: |
+    Google Chrome 116.0.5845.179 (Official Build) (arm64) 
+    OS Linux
+  steps-to-reproduce: |
+    1. Зайти на главную сраницу
+    2. Нажать на кнопку "Next"
+    3. Нажать на кнопку "Previous"
+  expected-result: |
+    Перемешение по каталагу товара с помощью кнопок "Next" и "Previous"
+  actual-result:
+    
+   
  
   
 - summary: |
@@ -15,10 +27,12 @@
     3. Нажать на кнопку "Previous"
   expected-result: |
     Перемешение по каталагу товара с помощью кнопок "Next" и "Previous"
-  actual-result: |
+  actual-result:
+    При переключении кнопок "Next" и "Previous", список
+    фильтра "Brand" тоже перемещается
     Ошибка изображена на скриншоте 1 и 2:
-    BugrReport-Skrenshort/
-    
+    - BugrReport-Skrenshort/Screenshot Previous-Next 1.png
+    - BugrReport-Skrenshort/Screenshot Previous-Next 2.png
   
 - summary: |
     Проверка на наличия мобильной версии
@@ -67,9 +81,9 @@
     2. Выбрать товар
     3. Появилась карточка товара
   expected-result: |
-    Возможность просматривать карточку товара 
+    Возможность просматривать карточку товара
   actual-result: |
     Карточка товара не просматривается
-    Не прокручивается картинка товара
+    Не прокручивается картинки товара
 
 
