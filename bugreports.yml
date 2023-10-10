@@ -13,6 +13,7 @@
   actual-result:
     Ничего не происходит при клике на "Hexlet Store"
     
+    
 - summary: |
     При пролистывании каталога товаров, меняется список фильтров товаров слева
   environment: |
@@ -80,7 +81,7 @@
   actual-result: |
     Фотография не прокручивается, при нажатие на неё, ничего не происходит
     Ошибка изображена на скриншоте: 
-    BugReport-Screenshots/
+    BugReport-Screenshots/ScreenshotFoto.png
 
 - summary: |
     Не отправляется запрос на сервер на оформление заказа
@@ -88,10 +89,10 @@
     Google Chrome 116.0.5845.179 (Official Build) (arm64) 
     OS Linux
   steps-to-reproduce: |
-
-  
-    1. Открыть DevTools
-    2. Открыть вкладку Console в DevTools
+    1. Открыть страницу  с корзиной товара(в корзине добавленны товары)
+    2. Открыть DevTools
+    3. Открыть вкладку Console в DevTools
+    4. Нажать на "Checkout"
   expected-result: |
     Заказ оформлен. Запрос на сервер отправлен
   actual-result: |
