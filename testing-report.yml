@@ -49,7 +49,7 @@
   
 - summary: | 
     Переход на главную страницу c помощью кнопки "Store"
-  status: fail
+  status: pass
   
 - summary: | 
     Переход на главную страницу c помощью "Hexlet Store"
