@@ -5,7 +5,7 @@
  
   
 - summary: |
-    Проверка работы кнопок навигации "Next" и "Previous"
+    Проверка работы кнопок "Next" и "Previous"
   environment: |
     Google Chrome 116.0.5845.179 (Official Build) (arm64) 
     OS Linux
@@ -14,9 +14,9 @@
     2. Нажать на кнопку "Next"
     3. Нажать на кнопку "Previous"
   expected-result: |
-    
+    Перемешение по каталагу товара с помощью кнопок "Next" и "Previous"
   actual-result: |
-    
+    Ошибка изображена на скриншоте 1 и 2:
     BugrReport-Skrenshort/
     
   
