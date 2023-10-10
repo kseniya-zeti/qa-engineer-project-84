@@ -52,7 +52,7 @@
   status: fail
   
 - summary: |
-    Перелистование 
+    Пролистывании каталога товаров с помошью кнопок "Next" и "Previous"
   status: fail
    
 - summary: |
