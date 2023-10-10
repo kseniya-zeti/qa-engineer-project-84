@@ -57,7 +57,7 @@
   
 - summary: |
     Проверка работы кнопок навигации "Next" и "Previous"
-  status: pass
+  status: fail
   
 - summary: |
     Проверка не корректных данных в поисковой строке
