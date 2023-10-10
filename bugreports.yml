@@ -12,7 +12,7 @@
     Переход на главную страницу
     с помощью названия (логотипа) "Hexlet Store"
   actual-result:
-    При кликанье на логотип ниченго не происходит
+    При кликt на логотип ничего не происходит
     
 - summary: |
     Проверка работы кнопок "Next" и "Previous"
@@ -29,13 +29,13 @@
     При переключении кнопок "Next" и "Previous", список
     фильтра "Brand" тоже перемещается
     Ошибка изображена на скриншоте 1 и 2:
-    - BugrReport-Skrenshort/Screenshot Previous-Next 1.png
-    - BugrReport-Skrenshort/Screenshot Previous-Next 2.png
+    - BugReport-Screenshots/Next-Previous1.png
+    - BugReport-Screenshots/Next-Previous2.png
   
 - summary: |
     Проверка на наличия мобильной версии
   
-
+BugReport-Screenshots
 
 - summary: |
     Часть интерфейса не переводится на русский язык
@@ -52,7 +52,7 @@
   actual-result: |
     При переключении на русский язык часть интерфейса не переводится
     Ошибка изображена на скриншоте: 
-    BugrReport-Skrenshort/BagReport- Language.png
+   BugReport-Screenshots/Language.png
     
 - summary: |
     Нет возможности изменить количество товара в корзине
@@ -67,7 +67,7 @@
   actual-result: |
     Нет функции изменения количества товара в корзине
     Ошибка изображена на скриншоте:
-    BugrReport-Skrenshort/Variation-in-quantity.png
+    BugReport-Screenshots/Variation-InQuantity.png
 
 - summary: |
     Не просматривается карточка товара 
