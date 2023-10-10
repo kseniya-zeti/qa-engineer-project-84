@@ -1,21 +1,19 @@
 --- 
-
 - summary: | 
-    Переход на главную страницу c помощью "Hexlet Store"
+    Переход на главную страницу c помощью логотипа "Hexlet Store"
   environment: |
     Google Chrome 116.0.5845.179 (Official Build) (arm64) 
     OS Linux
   steps-to-reproduce: |
-    1. Зайти на главную сраницу
-    2. Нажать на кнопку "Next"
-    3. Нажать на кнопку "Previous"
+    1. Открыть страницу с карточкой товара:
+    https://hexlet-products-store.vercel.app/products/31
+    2. Кликнуть на "Hexlet Store"
   expected-result: |
-    Переход на главную страницу с помощью названия (логотипа) Hexlet Store
+    Переход на главную страницу
+    с помощью названия (логотипа) "Hexlet Store"
   actual-result:
+    При кликанье на логотип ниченго не происходит
     
-   
- 
-  
 - summary: |
     Проверка работы кнопок "Next" и "Previous"
   environment: |
