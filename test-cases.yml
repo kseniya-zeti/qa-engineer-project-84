@@ -1,0 +1,12 @@
+---
+- summary: |
+Пользователь должен иметь возможность фильтровать товары
+ requirement: |
+ 
+  prerequisites: |
+  
+  test-data: |
+  
+   steps:
+   
+    expected-result: |
