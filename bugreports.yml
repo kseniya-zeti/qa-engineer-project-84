@@ -34,8 +34,21 @@
   
 - summary: |
     Проверка на наличия мобильной версии
-  
-BugReport-Screenshots
+  environment: |
+    Google Chrome 116.0.5845.179 (Official Build) (arm64) 
+    OS Linux
+  steps-to-reproduce: |
+    1. Зайти на главную сраницу https://hexlet-products-store.vercel.app
+    2. Кликнуть на "Languge"
+    3. Выбрать "Russian"
+  expected-result: |
+    Интерфейс переключился на русский язык
+    Весь текст и меню переводится на русский язык
+  actual-result: |
+    При переключении на русский язык часть интерфейса не переводится
+    Ошибка изображена на скриншоте: 
+   BugReport-Screenshots/Language.png
+
 
 - summary: |
     Часть интерфейса не переводится на русский язык
