@@ -52,7 +52,7 @@
   status: fail
   
 - summary: |
-    Проверка работы кнопок навигации "Next" и "Previous"
+    Перелистование 
   status: fail
    
 - summary: |
