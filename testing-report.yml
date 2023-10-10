@@ -9,7 +9,7 @@
   
 - summary: |
     Проверка товара по категориям
-  status: fail
+  status: pass
  
 - summary: |
     Фильтрация товара по производителю
@@ -49,11 +49,11 @@
   
 - summary: | 
     Переход на главную страницу c помощью кнопки "Store"
-  status: pass
+  status: fail
   
 - summary: | 
     Переход на главную страницу c помощью "Hexlet Store"
-  status: pass
+  status: fail
   
 - summary: |
     Проверка работы кнопок навигации "Next" и "Previous"
