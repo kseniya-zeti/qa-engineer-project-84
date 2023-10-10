@@ -33,7 +33,7 @@
   
 - summary: |
     Оформление заказа на сайте
-  status: pass
+  status: fail
 
 - summary: |
     Удаление товара из корзины
