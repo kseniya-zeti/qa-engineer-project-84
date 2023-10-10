@@ -11,8 +11,8 @@
     OS Linux
   steps-to-reproduce: |
     1. Зайти на главную сраницу
-    2.
-    
+    2. Нажать на кнопку "Next"
+    3. Нажать на кнопку "Previous"
   expected-result: |
     
   actual-result: |
