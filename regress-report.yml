@@ -1,79 +1,80 @@
 ---
-- summary: |
-    Поиск товара по ключевому слову в "Search"
-  status: fail
+test-cases:
+  - summary: |
+      Поиск товара по ключевому слову в "Search"
+    status: fail
 
-- summary: |
-    Проверка карточки товара
-  status: pass
+  - summary: |
+      Проверка карточки товара
+    status: pass
   
-- summary: |
-    Проверка товара по категориям
-  status: pass
+  - summary: |
+      Проверка товара по категориям
+    status: pass
  
-- summary: |
-    Фильтрация товара по производителю
-  status: pass
+  - summary: |
+      Фильтрация товара по производителю
+    status: pass
 
-- summary: |
-   Фильтрация товары по цене ( класс эквивалентности )
-  status: fail
+  - summary: |
+      Фильтрация товары по цене ( класс эквивалентности )
+    status: fail
 
-- summary: | 
-    Отфильтровать товары по цене ( граничные значения )
- status: fail
+  - summary: | 
+      Отфильтровать товары по цене ( граничные значения )
+    status: fail
 
-- summary: |
-    Переключения на русский язык пользования
-  status: fail
+  - summary: |
+      Переключения на русский язык пользования
+    status: fail
 
-- summary: |
-    Добавление товара в корзину 
-  status: pass
+  - summary: |
+      Добавление товара в корзину 
+    status: pass
   
-- summary: |
-    Оформление заказа на сайте
-  status: pass
+  - summary: |
+      Оформление заказа на сайте
+    status: pass
 
-- summary: |
-    Удаление товара из корзины
-  status: pass
+  - summary: |
+      Удаление товара из корзины
+    status: pass
     
-- summary: |
-    Изменение количества товара в корзине 
-  status: fail
+  - summary: |
+      Изменение количества товара в корзине 
+    status: fail
 
-- summary: |
-   Удаление с корзины всех товаров
-  status: pass
+  - summary: |
+      Удаление с корзины всех товаров
+    status: pass
   
-- summary: | 
-    Переход на главную страницу c помощью кнопки "Store"
-  status: pass
+  - summary: | 
+      Переход на главную страницу c помощью кнопки "Store"
+    status: pass
   
-- summary: | 
-    Переход на главную страницу c помощью "Hexlet Store"
-  status: pass
+  - summary: | 
+      Переход на главную страницу c помощью "Hexlet Store"
+    status: pass
   
-- summary: |
-    Проверка работы кнопок навигации "Next" и "Previous"
-  status: fail
+  - summary: |
+      Проверка работы кнопок навигации "Next" и "Previous"
+    status: fail
 
-- summary: |
-    Проверка сайта на совместимость с последними версиями браузера
-  status: pass
+  - summary: |
+      Проверка сайта на совместимость с последними версиями браузера
+    status: pass
   
-- summary: |
-    Проверка не корректных данных в поисковой строке
-  status: fail
+  - summary: |
+      Проверка не корректных данных в поисковой строке
+    status: fail
   
-- summary: |
-    Проверка сайта на наличия мобильной версии
-  status: fail
-
+  - summary: |
+      Проверка сайта на наличия мобильной версии
+    status: fail
+  
 bugreports:
-- summary: |
-       Не корректно отображается картинка одного товара
+  - summary: |
+      Не корректно отображается картинка одного товара
     environment: |
       Google Chrome 116.0.5845.179 (Official Build) (arm64) 
       OS Linux
@@ -87,8 +88,3 @@ bugreports:
       если выбрать один товар по названию
       Ошибка изображена на скриншоте:
       BugReport-Skrenshort/RegresionTesting.png
-
-
-    
-   
-
