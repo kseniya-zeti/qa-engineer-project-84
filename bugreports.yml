@@ -12,7 +12,7 @@
     Переход на главную страницу
     с помощью названия (логотипа) "Hexlet Store"
   actual-result:
-    При кликt на логотип ничего не происходит
+    При клике на логотип ничего не происходит
     
 - summary: |
     Проверка работы кнопок "Next" и "Previous"
@@ -24,10 +24,9 @@
     2. Нажать на кнопку "Next"
     3. Нажать на кнопку "Previous"
   expected-result: |
-    Перемешение по каталагу товара с помощью кнопок "Next" и "Previous"
-  actual-result:
-    При переключении кнопок "Next" и "Previous", список
-    фильтра "Brand" тоже перемещается
+   Кнопки корректно работают
+  actual-result: |
+    При клике на Next-Previous, список "Brand" тоже перемещается
     Ошибка изображена на скриншоте 1 и 2:
     - BugReport-Screenshots/Next-Previous1.png
     - BugReport-Screenshots/Next-Previous2.png
@@ -63,7 +62,7 @@
   actual-result: |
     При переключении на русский язык часть интерфейса не переводится
     Ошибка изображена на скриншоте: 
-   BugReport-Screenshots/Language.png
+    BugReport-Screenshots/Language.png
     
 - summary: |
     Нет возможности изменить количество товара в корзине
@@ -73,8 +72,8 @@
   steps-to-reproduce: |
     1. Зайти в корзину товара: https://hexlet-products-store.vercel.app/cart
     2. Изменить количество товара
-  expected-result:|  
-    Возможность именение количества товара в корзине
+  expected-result: |  
+    Возможность изменить количества товара в корзине
   actual-result: |
     Нет функции изменения количества товара в корзине
     Ошибка изображена на скриншоте:
