@@ -64,8 +64,8 @@
   status: fail
 
 bugreports:
-  - summary: |
-      Ломается верстка при изображении одного товара на сайте
+- summary: |
+       Не корректно отображается картинка одного товара
     environment: |
       Google Chrome 116.0.5845.179 (Official Build) (arm64) 
       OS Linux
@@ -78,7 +78,7 @@ bugreports:
       Не корректно отображается картинка товара на сайте,
       если выбрать один товар по названию
       Ошибка изображена на скриншоте:
-      BugrReport-Skrenshort/RegresionTesting.png
+      BugReport-Skrenshort/RegresionTesting.png
 
 
     
