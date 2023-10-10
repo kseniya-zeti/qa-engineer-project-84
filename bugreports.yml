@@ -6,17 +6,32 @@
   
 - summary: |
     Проверка работы кнопок навигации "Next" и "Previous"
-  status: fail
-
+  environment: |
+    Google Chrome 116.0.5845.179 (Official Build) (arm64) 
+    OS Linux
+  steps-to-reproduce: |
+    1. Зайти на главную сраницу 
+    2. Кликнуть на "Languge"
+    3. Выбрать "
+    Интерфейс переключился на русский язык
+    Весь текст и меню переведен на русский язык
+  actual-result: |
+    При переключении на русский язык часть  часть интерфейса не переводится
+    Текст карточки и описание не переводится
+     Ошибка изображена на скриншоте: 
+    BugrReport-Skrenshort/
+    
   
 - summary: |
     Проверка на наличия мобильной версии
   status: fail
 
+
 - summary: |
-   Часть интерфейса не переводится на русский язык
+    Часть интерфейса не переводится на русский язык
   environment: |
-    https://hexlet-products-store.vercel.app/коммит/версия ПО и всего окружения
+    Google Chrome 116.0.5845.179 (Official Build) (arm64) 
+    OS Linux
   steps-to-reproduce: |
     1. Зайти на главную сраницу https://hexlet-products-store.vercel.app
     2. Кликнуть на "Languge"
@@ -27,7 +42,7 @@
   actual-result: |
     При переключении на русский язык часть  часть интерфейса не переводится
     Текст карточки и описание не переводится
-     Ошибка изображена на скриншоте: 
+    Ошибка изображена на скриншоте: 
     BugrReport-Skrenshort/BagReport- Language.png
     
 
