@@ -9,23 +9,22 @@
     https://hexlet-products-store.vercel.app/products/31
     2. Нажать на "Hexlet Store"
   expected-result: |
-    Переход на главную страницу
+    Открывается главная страница
   actual-result:
-    При клике на название ничего не происходит
+    Ничего не происходит при клике на "Hexlet Store"
     
 - summary: |
-    При пролистовании списка товаров меняется список фильтров товаров слева
+    При пролистывании каталога товаров, меняется список фильтров товаров слева
   environment: |
     Google Chrome 116.0.5845.179 (Official Build) (arm64) 
     OS Linux
   steps-to-reproduce: |
     1. Зайти на главную сраницу
-    2. Нажать на кнопку "Next"
-    3. Нажать на кнопку "Previous"
+    2. Пролистать каталог товаров с помощью кнопок "Next" и "Previous"  
   expected-result: |
-    Кнопки корректно работают
+    Ничено не меняется. Меняется только каталог товаров
   actual-result: |
-    При клике на Next-Previous, список "Brand" тоже перемещается
+    Список фильтров слева меняется при клике на "Next" или "Previous" 
     Ошибка изображена на скриншоте 1 и 2:
     - BugReport-Screenshots/Next-Previous1.png
     - BugReport-Screenshots/Next-Previous2.png
@@ -39,9 +38,9 @@
     2. Проскроллить сайт от начала и до конца
     3. Перейти на страницу корзины
   expected-result: |
-    На телефоне отбражается сайт интернет- магазина 
+    Сайт имеет мобильную версию 
   actual-result: |
-    Не отображается корректно сайт на телефоне  
+    Не корректное отображение сайта
     Ошибка изображена на скриншоте: 
     BugReport-Screenshots/VersionMobile1Skreenshot.png
     BugReport-Screenshots/VersionMobile2Skreenshot.png
@@ -52,14 +51,15 @@
     Google Chrome 116.0.5845.179 (Official Build) (arm64) 
     OS Linux
   steps-to-reproduce: |
-    1. Зайти на главную сраницу https://hexlet-products-store.vercel.app
+    1. Открыть страницу с карточкой товара:
+    https://hexlet-products-store.vercel.app/products/31
     2. Кликнуть на "Languge"
     3. Выбрать "Russian"
   expected-result: |
     Интерфейс переключился на русский язык
-    
+    Кнопки меню и описание товара переключились на русский язык
   actual-result: |
-    При переключении на русский язык часть интерфейса не переводится
+   Кнопки меню переключились на русский язык.Описание товаров осталость на английском языке
     Ошибка изображена на скриншоте: 
     BugReport-Screenshots/Language.png
     
@@ -87,14 +87,14 @@
     Google Chrome 116.0.5845.179 (Official Build) (arm64) 
     OS Linux
   steps-to-reproduce: |
-    1. Зайти в корзину товара 
-    2. Выбрать товар
-    3. Появилась окно с описанием товара
-    4. Нажать на миниатюрное фото
+
+  
+    1. Открыть DevTools
+    2. Открыть вкладку Console в DevTools
   expected-result: |
-    Заказ оформлен
+    Заказ оформлен. Запрос на сервер отправлен
   actual-result: |
     Заказ не оформлен. Запрос на создание заказа провален. В консоле отображается ошибка
     Ошибка изображена на скриншоте: 
-    BugReport-Screenshots/
+    BugReport-Screenshots/ScreenshotError.png
 
