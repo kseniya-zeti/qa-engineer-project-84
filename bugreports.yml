@@ -33,7 +33,7 @@
     - BugReport-Screenshots/Next-Previous2.png
   
 - summary: |
-    Проверка на наличия мобильной версии
+    Сайт не имеет мобильную версию
   environment: |
     Iphone SE,версия IOS16.7,Safari
   steps-to-reproduce: |
@@ -41,12 +41,12 @@
     2. Проскроллить сайт от начала и до конца
     3. Перейти на страницу корзины
   expected-result: |
-    
+    На телефоне отбражается сайт интернет- магазина 
   actual-result: |
-    
+    Не отображается корректно сайт на телефоне  
     Ошибка изображена на скриншоте: 
-   BugReport-Screenshots/
-
+    BugReport-Screenshots/VersionMobile1Skreenshot.png
+    BugReport-Screenshots/VersionMobile2Skreenshot.png
 
 - summary: |
     Часть интерфейса не переводится на русский язык
