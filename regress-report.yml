@@ -34,7 +34,7 @@ test-cases:
   
   - summary: |
       Оформление заказа на сайте
-    status: pass
+    status: fail
 
   - summary: |
       Удаление товара из корзины
@@ -53,7 +53,8 @@ test-cases:
     status: pass
   
   - summary: |
-      Проверка работы кнопок навигации "Next" и "Previous"
+      Возможность последовательного перехода по каталагу товара
+      с помощью кнопок "Next" и "Previous"
     status: fail
 
   - summary: |
