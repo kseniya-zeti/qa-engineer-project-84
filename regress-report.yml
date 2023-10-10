@@ -66,6 +66,10 @@
 - summary: |
     Проверка не корректных данных в поисковой строке
   status: fail
+  
+- summary: |
+    Проверка сайта на наличия мобильной версии
+  status: fail
 
 bugreports:
 - summary: |
